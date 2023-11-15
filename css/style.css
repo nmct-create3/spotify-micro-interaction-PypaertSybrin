@@ -42,8 +42,7 @@ html {
 body {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 1fr auto 1fr;
+    place-items: center;
 }
 
 /*
@@ -84,8 +83,6 @@ body {
 */
 .album{
     max-width: 400px;
-    grid-column-start: 2;
-    grid-row-start: 2;
     background-color: var(--spotify-darkGrey);
     padding: 2rem;
     border-radius: 10px;
